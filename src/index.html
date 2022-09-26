@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- **** Header **** -->
-    <header class="grid grid-cols-3 bg-black h-40">
+    <header class="grid grid-cols-3 bg-brown h-40">
       <div class="flex justify-center items-center col-span-2">
         <img
           src="./assets/img/profil1.jpeg.jpg"
@@ -23,7 +23,7 @@
       <div
         class="flex flex-col items-center justify-center text-white uppercase"
       >
-        <h1>Alexandre Laurent</h1>
+        <h1 class="pb-8">Alexandre Laurent</h1>
 
         <h2>Développeur Web</h2>
       </div>
@@ -31,46 +31,79 @@
 
     <!-- **** Content **** -->
     <div class="grid grid-cols-4">
-      <aside class="grid grid-rows-6 h-full bg-beige">
+      <aside class="grid grid-rows-6 h-full bg-brown text-white">
         <!-- ********* Row 1 ***********  -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Compétences</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center font-sans text-black">Compétences</h3>
+          <hr width="50%" style="border-color: firebrick;" />
           <div class="flex flex-col pl-4 pt-4 uppercase">
-            <span>Html/Css</span>
-            <span>Javascript</span>
-            <span>Php/Sql</span>
+            <span class=" flex justify-center text-black">Html/css</span>
+            <div class="flex flex-row justify-center pb-8">
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+            </div>
+            <span class=" flex justify-center text-black">Javascript</span>
+            <div class="flex flex-row justify-center pb-8">
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+            </div>
+               <span class=" flex justify-center text-black">php/sql</span>
+            <div class="flex flex-row justify-center">
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-solid fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+              <i class="fa-regular fa-star text-yellow"></i>
+            </div>
           </div>
         </div>
 
         <!-- *********** Row 2 ************-->
 
         <div class="pt-8">
-          <h3 class="uppercase text-center">Mes liens</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center font-sans text-black">Mes liens</h3>
+          <hr width="50%" style="border-color: firebrick;" />
           <div class="flex flex-col pl-4 pt-4">
-            <span
-              >Portfolio :
-              <a href="" target="_blank" rel="noreferrer noopener"></a>
-            </span>
-            <span
-              >Github :
+            <div class="py-8">
+              <i class="fa-brands fa-linkedin text-black"></i>
+              <span
+
+                <a
+                  class="text-black"
+                  href="https://www.linkedin.com/in/alexandre-laurent-16aaa0251/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >https://www.linkedin.com/in/alexandre-laurent-16aaa0251/</a
+                >
+              </span>
+            </div>
+            <div>
+              <i class="fa-brands fa-github text-black"></i>
+              <span
               <a
-                href="https://github.com/alexandrelaurent1"
-                target="_blank"
-                rel="noreferrer noopener"
-                >https://github.com/alexandrelaurent1</a
+              class="text-black"
+              href="https://github.com/alexandrelaurent1"
+              target="_blank"
+              rel="noreferrer noopener"
+              >https://github.com/alexandrelaurent1</a
               ></span
-            >
+              >
+            </div>
+            </div>
           </div>
-        </div>
-
-        <!-- *********** Row 3 ************-->
-
+          
+          <!-- *********** Row 3 ************-->
+          
         <div class="pt-8">
-          <h3 class="uppercase text-center">Hard skills</h3>
-          <hr width="50%" />
-          <div class="pt-4 pl-4">
+          <h3 class="uppercase text-center font-sans text-black">Hard skills</h3>
+          <hr width="50%" style="border-color: firebrick;"  />
+          <div class="pt-4 pl-4 flex text-black">
             <ul>
               <li>React</li>
               <li>Tailwind</li>
@@ -82,11 +115,10 @@
         <!-- ********* Row 4 ********* -->
 
         <div class="pt-8">
-          <h3 class="uppercase text-center">Soft skills</h3>
-          <hr width="50%" />
-          <div class="pt-4 pl-4">
+          <h3 class="uppercase text-center font-sans text-black">Soft skills</h3>
+          <hr width="50%" style="border-color: firebrick;"  />
+          <div class="pt-4 pl-4 text-black">
             <ul>
-              <li>courageux</li>
               <li>Tailwind</li>
               <li>Webpack</li>
             </ul>
@@ -95,33 +127,36 @@
 
         <!-- ******** Row 5 ********** -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Centres d'intérêts</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center font-sans text-black">Centres d'intérêts</h3>
+          <hr width="50%" style="border-color: firebrick;"  />
           <div class="pt-4 pl-4">
-            <h4>Sport</h4>
-            <div class="flex flex-col">
-              <span>Jeux Vidéo</span>
-              <span>Audiovisuel</span>
+            <div class="flex flex-col text-black">
+              <ul>
+                <li>Jiu Jitsu Brésilien (ceinture bleu)</li>
+                <li>Audiovisuel</li>
+                <li>Jeux Vidéo</li>
+              </ul>
             </div>
           </div>
         </div>
 
         <!-- ******** Row 6 ********* -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Informations générales</h3>
-          <hr width="50%" />
-          <div class="flex flex-col pt-4 pl-4">
+          <h3 class="uppercase text-center font-sans text-black">Informations générales</h3>
+          <hr width="50%" style="border-color: firebrick;"  />
+          <div class="flex flex-col pt-4 pl-4 text-black">
             <span>22 octobre 2000</span>
-            <span>07 67 93 11 36</span>
-            <span>laurentalexandre352@gmail.com</span>
+            <a class="text-white" href="http://laurentalexandre352@gmail.com"
+              >laurentalexandre352@gmail.com</a
+            >
             <span>Meaux (77100)</span>
           </div>
         </div>
       </aside>
 
       <!-- ******* aside End ******** -->
-      <div class="px-8 col-start-2 col-end-5 py-8">
-        <h1 class="text-center uppercase">Expériences professionnelles</h1>
+      <div class="px-8 col-start-2 col-end-5 py-8 bg-grey">
+        <h1 class="text-center uppercase text-red">Expériences professionnelles</h1>
         <hr />
 
         <div class="pt-8 pl-8">
@@ -135,7 +170,7 @@
             <span class="italic">Juillet 2020 - Décembre 2021</span>
           </div>
 
-          <h1 class="text-center uppercase pt-8">Formation</h1>
+          <h1 class="text-center uppercase pt-8 text-red">Formation</h1>
           <hr />
           <div class="pt-8 pl-8">
             <div class="pt-8">
@@ -156,16 +191,8 @@
                 <li>Appétance</li>
               </ul>
             </div>
-            <div class="pt-8">
-              <h3>Développeur Web - (Digi'Codes)</h3>
-              <span class="italic">2022</span>
-              <ul class="pl-4">
-                <li>Listé les taches</li>
-                <li>Listé les taches</li>
-                <li>Listé les taches</li>
-              </ul>
-            </div>
-            <h1 class="text-center uppercase pt-8">Diplômes</h1>
+
+            <h1 class="text-center uppercase pt-8 text-red">Diplômes</h1>
             <hr />
 
             <div class="pt-8">
@@ -181,27 +208,27 @@
       </div>
     </div>
     <!-- **** Footer **** -->
-    <footer class="h-20 w-full bg-black text-white">
+    <footer class="h-20 w-full bg-brown text-white">
       <div class="flex flex-col justify-center items-center h-full">
-        <span class="italic">Copyright</span>
+        <span class="italic text-white">Copyright</span>
         <div class="pt-4">
           <span
             ><a href="#" target="_blank" rel="noreferrer noopener"
-              ><i class="fa-solid fa-link"></i></a
+              ><i class="fa-solid fa-link text-white"></i></a
           ></span>
           <span class="px-4"
             ><a
               href="https://github.com/alexandrelaurent1"
               target="_blank"
               rel="noreferrer noopener"
-              ><i class="fa-brands fa-github"></i></a
+              ><i class="fa-brands fa-github text-white"></i></a
           ></span>
           <span
             ><a
               href="https://www.linkedin.com/in/alexandre-laurent-16aaa0251/"
               target="_blank"
               rel="noreferrer noopener"
-              ><i class="fa-brands fa-linkedin"></i></a
+              ><i class="fa-brands fa-linkedin text-white"></i></a
           ></span>
         </div>
       </div>
